@@ -1,0 +1,103 @@
+/* === Estilos generales === */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+/* === Títulos principales === */
+h1 {
+    font-size: 2.2em;
+    color: #fff;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* === Caja principal === */
+.container {
+    background-color: #fff;
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* === Subtítulos === */
+.container h2 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+/* === Etiquetas y texto === */
+label {
+    font-size: 1em;
+    color: #444;
+}
+
+/* === Campo de texto === */
+input[type="text"] {
+    width: 85%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #f5f9ff;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007BFF;
+    outline: none;
+    background-color: #eaf3ff;
+}
+
+/* === Botones === */
+button,
+a {
+    display: inline-block;
+    margin-top: 15px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1em;
+    transition: 0.3s;
+}
+
+button:hover,
+a:hover {
+    background-color: #0056b3;
+}
+
+/* === Resultados === */
+p {
+    font-size: 1.1em;
+    color: #222;
+    margin: 8px 0;
+}
+
+strong {
+    color: #000;
+}
+
+/* === Mensaje de error === */
+.error {
+    color: #d8000c;
+    background-color: #ffd2d2;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-weight: bold;
+}
